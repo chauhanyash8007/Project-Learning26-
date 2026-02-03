@@ -1,0 +1,13 @@
+.portfolio-card {
+  width: 300px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.portfolio-image {
+  width: 100%;
+  border-radius: 10px;
+}
