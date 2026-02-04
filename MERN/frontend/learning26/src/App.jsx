@@ -19,6 +19,10 @@ import { HomeComponent } from "./components/HomeComponent";
 import { NetflixTicket } from "./components/NetflixTicket";
 import { NetflixDetails } from "./components/NetflixDetails";
 import { NetflixTrending } from "./components/NetflixTrending";
+import { ErrorNotFound } from "./components/ErrorNotFound";
+import { Watch } from "./components/Watch";
+import { CricketTeams } from "./components/CricketTeams";
+import { TeamDetails } from "./components/TeamDetails";
 
 
 
@@ -38,6 +42,10 @@ function App() {
         <Route path="/netflixticket" element={<NetflixTicket/>}></Route>
         <Route path="/netflixdetails" element={<NetflixDetails/>}></Route>
         <Route path="/netflixTrending" element={<NetflixTrending/>}></Route>
+        <Route path="/watch/:name" element = {<Watch/>}></Route>
+        <Route path="/*" element = {<ErrorNotFound/>}></Route>
+        <Route path="/CricketTeams" element = {<CricketTeams/>}></Route>
+        <Route path="/team/:teamName" element = {<TeamDetails/>}></Route>
       </Routes>
       
     </div>
