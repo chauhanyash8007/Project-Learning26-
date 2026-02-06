@@ -23,6 +23,10 @@ import { ErrorNotFound } from "./components/ErrorNotFound";
 import { Watch } from "./components/Watch";
 import { CricketTeams } from "./components/CricketTeams";
 import { TeamDetails } from "./components/TeamDetails";
+import { UseStateDemo1 } from "./components/UseStateDemo1";
+import { FunctionDemo1 } from "./components/FunctionDemo1";
+import { UseStateDemo2 } from "./components/UseStateDemo2";
+import { UseStateDemo3 } from "./components/UseStateDemo3";
 
 
 
@@ -46,6 +50,10 @@ function App() {
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         <Route path="/CricketTeams" element = {<CricketTeams/>}></Route>
         <Route path="/team/:teamName" element = {<TeamDetails/>}></Route>
+        <Route path="/usestatedemo1" element ={<UseStateDemo1/>}></Route>
+        <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
+        <Route path="/usestatedemo3" element ={<UseStateDemo3/>}></Route>
+        <Route path="/fundemo1" element ={<FunctionDemo1/>}></Route>
       </Routes>
       
     </div>
