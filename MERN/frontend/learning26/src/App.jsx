@@ -27,6 +27,8 @@ import { UseStateDemo1 } from "./components/UseStateDemo1";
 import { FunctionDemo1 } from "./components/FunctionDemo1";
 import { UseStateDemo2 } from "./components/UseStateDemo2";
 import { UseStateDemo3 } from "./components/UseStateDemo3";
+import { Employees } from "./components/Employees";
+import  StudentPage  from "./components/StudentPage";
 
 
 
@@ -54,6 +56,8 @@ function App() {
         <Route path="/usestatedemo2" element ={<UseStateDemo2/>}></Route>
         <Route path="/usestatedemo3" element ={<UseStateDemo3/>}></Route>
         <Route path="/fundemo1" element ={<FunctionDemo1/>}></Route>
+        <Route path="/employees" element ={<Employees/>}></Route>
+        <Route path="/studentPage" element ={<StudentPage/>}></Route>
       </Routes>
       
     </div>
