@@ -32,9 +32,12 @@ import  StudentPage  from "./components/StudentPage";
 import { InputDemo1 } from "./components/input/InputDemo1";
 import { InputDemo2 } from "./components/input/InputDemo2";
 import { FormDemo1 } from "./components/form/FormDemo1";
+import { FormDemo2 } from "./components/form/FormDemo2";
 import  FormOne from "./components/form/FormOne";
 import  FormTow  from "./components/form/FormTwo";
 import  FormThree  from "./components/form/FormThree";
+import  FormFour  from "./components/form/FormFour";
+import  FormFive  from "./components/form/FormFive";
 
 
 
@@ -49,13 +52,13 @@ function App() {
       
       <Routes>
         <Route path="/" element = {<HomeComponent/>}></Route>
-        <Route path="/netflixhome" element={<NetflixHome />}></Route>
+        {/* <Route path="/netflixhome" element={<NetflixHome />}></Route>
         <Route path="/netflixmovies" element={<NetflixMovies />}></Route>
         <Route path="/netflixshows" element={<NetflixShows />}></Route>
         <Route path="/netflixticket" element={<NetflixTicket/>}></Route>
         <Route path="/netflixdetails" element={<NetflixDetails/>}></Route>
         <Route path="/netflixTrending" element={<NetflixTrending/>}></Route>
-        <Route path="/watch/:name" element = {<Watch/>}></Route>
+        <Route path="/watch/:name" element = {<Watch/>}></Route> */}
         <Route path="/*" element = {<ErrorNotFound/>}></Route>
         <Route path="/CricketTeams" element = {<CricketTeams/>}></Route>
         <Route path="/team/:teamName" element = {<TeamDetails/>}></Route>
@@ -68,9 +71,12 @@ function App() {
         <Route path="/inputdemo1" element = {<InputDemo1/>}></Route>
         <Route path="/inputdemo2" element = {<InputDemo2/>}></Route>
         <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
+        <Route path="/formdemo2" element = {<FormDemo2/>}></Route>
         <Route path="/form1" element = {<FormOne/>}></Route>
         <Route path="/form2" element = {<FormTow/>}></Route>
         <Route path="/form3" element = {<FormThree/>}></Route>
+        <Route path="/form4" element = {<FormFour/>}></Route>
+        <Route path="/form5" element = {<FormFive/>}></Route>
       </Routes>
       
     </div>
