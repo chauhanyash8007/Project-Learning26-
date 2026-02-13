@@ -33,11 +33,16 @@ import { InputDemo1 } from "./components/input/InputDemo1";
 import { InputDemo2 } from "./components/input/InputDemo2";
 import { FormDemo1 } from "./components/form/FormDemo1";
 import { FormDemo2 } from "./components/form/FormDemo2";
+import { FormDemo3 } from "./components/form/FormDemo3";
+import { FormDemo4 } from "./components/form/FormDemo4";
 import  FormOne from "./components/form/FormOne";
 import  FormTow  from "./components/form/FormTwo";
 import  FormThree  from "./components/form/FormThree";
 import  FormFour  from "./components/form/FormFour";
 import  FormFive  from "./components/form/FormFive";
+import  FormSix  from "./components/form/FormSix";
+import  FormSeven  from "./components/form/FormSeven";
+
 
 
 
@@ -72,11 +77,15 @@ function App() {
         <Route path="/inputdemo2" element = {<InputDemo2/>}></Route>
         <Route path="/formdemo1" element = {<FormDemo1/>}></Route>
         <Route path="/formdemo2" element = {<FormDemo2/>}></Route>
+        <Route path="/formdemo3" element = {<FormDemo3/>}></Route>
+        <Route path="/formdemo4" element = {<FormDemo4/>}></Route>
         <Route path="/form1" element = {<FormOne/>}></Route>
         <Route path="/form2" element = {<FormTow/>}></Route>
         <Route path="/form3" element = {<FormThree/>}></Route>
         <Route path="/form4" element = {<FormFour/>}></Route>
         <Route path="/form5" element = {<FormFive/>}></Route>
+        <Route path="/form6" element = {<FormSix/>}></Route>
+        <Route path="/form7" element = {<FormSeven/>}></Route>
       </Routes>
       
     </div>
