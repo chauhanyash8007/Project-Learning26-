@@ -42,11 +42,9 @@ import  FormFour  from "./components/form/FormFour";
 import  FormFive  from "./components/form/FormFive";
 import  FormSix  from "./components/form/FormSix";
 import  FormSeven  from "./components/form/FormSeven";
-
-
-
-
-
+import { ApiDemo1 } from "./components/api/ApiDemo1";
+import { ApiDemoOne } from "./components/api/ApiDemoOne";
+import { ApiDemoTwo } from "./components/api/ApiDemoTwo";
 
 function App() {
 
@@ -86,6 +84,9 @@ function App() {
         <Route path="/form5" element = {<FormFive/>}></Route>
         <Route path="/form6" element = {<FormSix/>}></Route>
         <Route path="/form7" element = {<FormSeven/>}></Route>
+        <Route path="/apidemo1" element ={<ApiDemo1/>}></Route>
+        <Route path="/ApiDemoOne" element ={<ApiDemoOne/>}></Route>
+        <Route path="/ApiDemoTwo" element ={<ApiDemoTwo/>}></Route>
       </Routes>
       
     </div>
