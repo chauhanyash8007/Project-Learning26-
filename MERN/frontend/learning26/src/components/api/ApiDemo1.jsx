@@ -35,6 +35,7 @@ export const ApiDemo1 = () => {
             <th>Email</th>
             <th>Password</th>
             <th>Age</th>
+            <th>isActive</th>
           </tr>
         </thead>
         <tbody>
@@ -46,6 +47,8 @@ export const ApiDemo1 = () => {
                 <td>{user.email}</td>
                 <td>{user.password}</td>
                 <td>{user.age}</td>
+                <td>{String(user.isActive ?? "undefined")}</td>
+
               </tr>
             );
           })}

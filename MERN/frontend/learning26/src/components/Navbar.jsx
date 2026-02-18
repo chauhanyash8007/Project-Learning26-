@@ -58,11 +58,11 @@ export const Navbar = () => {
                 Cricket Teams
               </Link>
             </li> */}
-            <li class="nav-item active">
+            {/* <li class="nav-item active">
               <Link class="nav-link" to="/fundemo1">
                 fundemo1
               </Link>
-            </li>
+            </li> */}
             {/* <li class="nav-item active">
               <Link class="nav-link" to="/usestatedemo1">
                 usestatedemo1
@@ -155,11 +155,6 @@ export const Navbar = () => {
               </Link>
             </li> */}
             <li class="nav-item active">
-              <Link class="nav-link" to="/apidemo1">
-                apidemo1
-              </Link>
-            </li>
-            <li class="nav-item active">
               <Link class="nav-link" to="/ApiDemoOne">
                 ApiDemo1
               </Link>
@@ -167,6 +162,26 @@ export const Navbar = () => {
              <li class="nav-item active">
               <Link class="nav-link" to="/ApiDemoTwo">
                 ApiDemo2
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo1">
+                apidemo1
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo2">
+                apidemo2
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/apidemo3">
+                apidemo3
+              </Link>
+            </li>
+            <li class="nav-item active">
+              <Link class="nav-link" to="/omdb">
+                omdb
               </Link>
             </li>
           </ul>
