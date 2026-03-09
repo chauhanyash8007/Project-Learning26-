@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 🚗 Vehicle Vault – MERN Stack Vehicle Comparison System
 
 Vehicle Vault is a full-stack web application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js) that allows users to search, filter, and compare vehicles based on specifications, pricing, and features.
