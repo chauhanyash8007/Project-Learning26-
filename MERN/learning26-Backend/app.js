@@ -2,6 +2,8 @@
 const express = require("express"); //express module
 //create an object of express
 const app = express();
+app.use(express.json()) //global middleware --> it will accept json data..
+
 
 const dbConnection = require("./src/utils/DBConnection")
 dbConnection() //calling function...
@@ -91,6 +93,18 @@ app.use("/emp", employeeRoutes);
 
 const productRoutes = require("./src/routes/ProductRoutes")
 app.use("/prod",productRoutes)
+
+const bookRoutes = require("./src/routes/bookRoutes")
+app.use("/book", bookRoutes)
+
+const cityRoutes = require("./src/routes/cityRoutes")
+app.use("/city", cityRoutes)
+
+const stateRoutes = require("./src/routes/stateRoutes")
+app.use("/state", stateRoutes)
+
+const categoryRoutes = require("./src/routes/categoryRoutes")
+app.use("/category", categoryRoutes)
 
 //server creation...
 const PORT = 3000;
